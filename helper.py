@@ -1,8 +1,8 @@
-#Rachel Katz rak5ea hello.py
-
+#Rachel Katz rak5ea lab5 helper.py
 from __future__ import print_function, unicode_literals
 
-from helper import greeting
+def greeting(msg):
+    print(msg)
 
 if __name__ == "__main__":
     greeting("hello")
