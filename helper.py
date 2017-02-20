@@ -3,6 +3,7 @@ from __future__ import print_function, unicode_literals
 
 def greeting(msg):
     print(msg)
+    return msg
 
 if __name__ == "__main__":
     greeting("hello")
